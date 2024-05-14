@@ -1,10 +1,13 @@
 # 项目介绍
-
-项目采用了:
-- vux: 移动端UI 框架
-- vue-router 路由管理
-- socket.io 创建 websocket 服务
-- MySQL 用户数据管理
+SPA
+采用的技术：
+- Vue2
+- Node.js
+- Express
+- Element-UI
+- Axios
+- Socket.IO
+- MySQL
 
 ## 启动项目
 启动服务器
