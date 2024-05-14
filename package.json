@@ -1,0 +1,46 @@
+{
+  "name": "imparable-vue-chatroom",
+  "version": "0.0.7",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve --port 888",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "serve": "node server/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "element-ui": "^2.15.14",
+    "express": "^4.18.3",
+    "mysql": "^2.18.1",
+    "req": "^0.1.4",
+    "socket.io": "^4.7.4",
+    "vue": "^2.6.6",
+    "vue-directive-image-previewer": "^2.2.2",
+    "vue-ref": "^2.0.0",
+    "vue-router": "^3.0.1",
+    "vux": "^2.9.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "@vue/eslint-config-prettier": "^4.0.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.21",
+    "vux-loader": "^1.2.9"
+  },
+  "description": "WebSocket 是流行的数据交互方式，在学习了 websocket 后，打算使用 vue + websocket + mysql 来完成一个小型的移动端聊天室，简单的实现登录、注册、发送消息等操作。进一步巩固自己对 vue 和 nodeJs 的掌握。",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
